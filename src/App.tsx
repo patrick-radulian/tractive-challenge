@@ -9,11 +9,18 @@ const BMIRanges = [
 ]
 
 const App = () => {
+    const [value, setValue] = React.useState(88.89);
+
     return (
         <div className={styles.app}>
+            <label className={styles.label}>
+                <span>Pet BMI Value:</span>
+                <input className={styles.input} type="number" value={value} onChange={(e) => setValue(Number(e.target.value))} />
+            </label>
+
             <div className={styles.container}>
                 <h3>Mr. Nash's BMI is</h3>
-                <PetBMI ranges={BMIRanges} value={88.89}/>
+                <PetBMI ranges={BMIRanges} value={value}/>
             </div>
         </div>
     )
