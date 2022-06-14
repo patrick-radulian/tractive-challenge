@@ -1,3 +1,71 @@
-.pet-bmi {
+.bmi {
+    text-align: center;
+}
+
+.section-container {
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-block: 2px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.ranges {
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+.range {
+    height: 2rem;
+    font-size: 1rem;
+    letter-spacing: 0.075rem;
     background-color: brown;
+    animation: spawnRange 0.25s ease-out 0s 1 normal forwards;
+}
+
+.range:nth-child(2) {
+    animation-delay: 0.05s
+}
+
+.range:nth-child(3) {
+    animation-delay: 0.1s
+}
+
+.range:first-child {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.range:last-child {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.label {
+
+}
+
+@keyframes spawnRange {
+    0% {
+        transform: scale(0);
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes spawnLabel {
+    0% {
+        transform: translateY(0);
+    }
 }
