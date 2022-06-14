@@ -2,6 +2,18 @@
     text-align: center;
 }
 
+.value {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.indicator {
+    position: relative;
+    display: block;
+    height: 1.5rem;
+    transform: translateX(-50%);
+}
+
 .section-container {
     display: flex;
     display: flex;
