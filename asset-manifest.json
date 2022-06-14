@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tractive-challenge/static/css/main.3d59cdc0.css",
+    "main.js": "/tractive-challenge/static/js/main.e3d1f0a2.js",
+    "static/js/787.2f737ac4.chunk.js": "/tractive-challenge/static/js/787.2f737ac4.chunk.js",
+    "index.html": "/tractive-challenge/index.html",
+    "static/media/Triangle.svg": "/tractive-challenge/static/media/Triangle.91a811c95526e441afa19f1f3be6c3cc.svg",
+    "main.3d59cdc0.css.map": "/tractive-challenge/static/css/main.3d59cdc0.css.map",
+    "main.e3d1f0a2.js.map": "/tractive-challenge/static/js/main.e3d1f0a2.js.map",
+    "787.2f737ac4.chunk.js.map": "/tractive-challenge/static/js/787.2f737ac4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d59cdc0.css",
+    "static/js/main.e3d1f0a2.js"
+  ]
+}
