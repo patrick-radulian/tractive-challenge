@@ -3,9 +3,9 @@ import styles from './App.module.css';
 import PetBMI from './components/pet-bmi/pet-bmi';
 
 const BMIRanges = [
-    { from: 0, to: 29.99, color: "linear-gradient(135deg, #0f8be7, #004e88)", label: "Underweight" },
-    { from: 30, to: 90, color: "linear-gradient(162deg, #59c46f, #006f17)", label: "Normal" },
-    { from: 90.01, to: 120, color: "linear-gradient(162deg, #bf3737, #700202)", label: "Overweight" },
+    { from: 0, to: 29.99, color: "#0D78C8", label: "Underweight" },
+    { from: 30, to: 90, color: "#058F22", label: "Normal" },
+    { from: 90.01, to: 120, color: "#8A0303", label: "Overweight" },
 ]
 
 const App = () => {
