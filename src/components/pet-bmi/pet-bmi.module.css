@@ -40,15 +40,6 @@
     height: 2rem;
     font-size: 1rem;
     background-color: brown;
-    animation: spawnRange 0.25s ease-out 0s 1 normal forwards;
-}
-
-.range:nth-child(2) {
-    animation-delay: 0.05s
-}
-
-.range:nth-child(3) {
-    animation-delay: 0.1s
 }
 
 .range:first-child {
@@ -59,26 +50,4 @@
 .range:last-child {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
-}
-
-.label {
-
-}
-
-@keyframes spawnRange {
-    0% {
-        transform: scale(0);
-    }
-    80% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes spawnLabel {
-    0% {
-        transform: translateY(0);
-    }
 }
